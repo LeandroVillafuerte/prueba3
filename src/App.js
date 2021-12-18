@@ -1,8 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-const {REACT_APP_SERVER} = process.env
-
 function App() {
   return (
     <div className="App">

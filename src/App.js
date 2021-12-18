@@ -16,7 +16,7 @@ function App() {
           lectus nisi. Proin at nulla magna. Donec accumsan orci eget urna
           mollis tempus. Duis placerat tempus erat eget dapibus.
         </p>
-        <p>{REACT_APP_SERVER}</p>
+        <p>HELLO WORLD</p>
         <a
           className="App-link"
           href="https://reactjs.org"

@@ -1,6 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
 
+const {REACT_APP_SERVER} = process.env
+
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,7 @@ function App() {
           lectus nisi. Proin at nulla magna. Donec accumsan orci eget urna
           mollis tempus. Duis placerat tempus erat eget dapibus.
         </p>
+        <p>{REACT_APP_SERVER}</p>
         <a
           className="App-link"
           href="https://reactjs.org"
